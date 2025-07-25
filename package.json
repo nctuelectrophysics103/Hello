@@ -1,0 +1,82 @@
+{
+  "name": "chip-pad-pin-analyzer",
+  "displayName": "晶片Pad與Pin分析器",
+  "description": "自動分析晶片圖像中pad與pin的對應關係",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:chipAnalyzer.analyze",
+    "onCommand:chipAnalyzer.viewResults"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "chipAnalyzer.analyze",
+        "title": "分析晶片Pad與Pin對應關係",
+        "category": "晶片分析器"
+      },
+      {
+        "command": "chipAnalyzer.viewResults",
+        "title": "查看分析結果",
+        "category": "晶片分析器"
+      },
+      {
+        "command": "chipAnalyzer.exportMapping",
+        "title": "導出映射表",
+        "category": "晶片分析器"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "resourceExtname =~ /\\.(jpg|jpeg|png|bmp|tiff)$/",
+          "command": "chipAnalyzer.analyze",
+          "group": "navigation"
+        }
+      ],
+      "editor/context": [
+        {
+          "when": "resourceExtname =~ /\\.(jpg|jpeg|png|bmp|tiff)$/",
+          "command": "chipAnalyzer.analyze",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "晶片分析器",
+      "properties": {
+        "chipAnalyzer.expectedPads": {
+          "type": "number",
+          "default": 152,
+          "description": "預期的pad數量"
+        },
+        "chipAnalyzer.expectedPins": {
+          "type": "number",
+          "default": 128,
+          "description": "預期的pin數量"
+        },
+        "chipAnalyzer.pythonPath": {
+          "type": "string",
+          "default": "python",
+          "description": "Python解釋器路徑"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@types/node": "16.x",
+    "typescript": "^4.4.4"
+  }
+}
