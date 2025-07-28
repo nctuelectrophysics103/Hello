@@ -1,0 +1,34 @@
+Pad Number,Pin Number,Signal Name,Pin Type,Description
+A1,1,VDD,POWER,3.3V Power Supply
+A8,8,GND,GROUND,Ground
+H1,64,VDD,POWER,3.3V Power Supply
+H8,57,GND,GROUND,Ground
+B2,9,CLK,INPUT,Main system clock
+B3,10,CLK_OUT,OUTPUT,Generated clock output
+C1,16,DATA0,BIDIRECTIONAL,Data bus bit 0
+C2,17,DATA1,BIDIRECTIONAL,Data bus bit 1
+C3,18,DATA2,BIDIRECTIONAL,Data bus bit 2
+C4,19,DATA3,BIDIRECTIONAL,Data bus bit 3
+C5,20,DATA4,BIDIRECTIONAL,Data bus bit 4
+C6,21,DATA5,BIDIRECTIONAL,Data bus bit 5
+C7,22,DATA6,BIDIRECTIONAL,Data bus bit 6
+C8,23,DATA7,BIDIRECTIONAL,Data bus bit 7
+D1,24,ADDR0,INPUT,Address bus bit 0
+D2,25,ADDR1,INPUT,Address bus bit 1
+D3,26,ADDR2,INPUT,Address bus bit 2
+D4,27,ADDR3,INPUT,Address bus bit 3
+E1,32,RESET_N,INPUT,Active low reset
+E2,33,ENABLE,INPUT,Chip enable
+E3,34,WR_N,INPUT,Active low write enable
+E4,35,RD_N,INPUT,Active low read enable
+F1,40,GPIO0,BIDIRECTIONAL,General purpose I/O 0
+F2,41,GPIO1,BIDIRECTIONAL,General purpose I/O 1
+F3,42,GPIO2,BIDIRECTIONAL,General purpose I/O 2
+F4,43,GPIO3,BIDIRECTIONAL,General purpose I/O 3
+F5,44,GPIO4,BIDIRECTIONAL,General purpose I/O 4
+F6,45,GPIO5,BIDIRECTIONAL,General purpose I/O 5
+F7,46,GPIO6,BIDIRECTIONAL,General purpose I/O 6
+F8,47,GPIO7,BIDIRECTIONAL,General purpose I/O 7
+G1,48,VREF,INPUT,Analog reference voltage
+G2,49,ADC_IN,INPUT,Analog to digital converter input
+G3,50,DAC_OUT,OUTPUT,Digital to analog converter output

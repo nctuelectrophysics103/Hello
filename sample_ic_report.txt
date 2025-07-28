@@ -1,0 +1,145 @@
+PAD TO PIN MAPPING REPORT
+==================================================
+Total mappings: 33
+
+Mapping Details:
+------------------------------
+Pad: A1       -> Pin: 1       
+  Signal: VDD             Type: POWER
+  Description: 3.3V Power Supply
+
+Pad: A8       -> Pin: 8       
+  Signal: GND             Type: GROUND
+  Description: Ground
+
+Pad: B2       -> Pin: 9       
+  Signal: CLK             Type: INPUT
+  Description: Main system clock
+
+Pad: B3       -> Pin: 10      
+  Signal: CLK_OUT         Type: OUTPUT
+  Description: Generated clock output
+
+Pad: C1       -> Pin: 16      
+  Signal: DATA0           Type: BIDIRECTIONAL
+  Description: Data bus bit 0
+
+Pad: C2       -> Pin: 17      
+  Signal: DATA1           Type: BIDIRECTIONAL
+  Description: Data bus bit 1
+
+Pad: C3       -> Pin: 18      
+  Signal: DATA2           Type: BIDIRECTIONAL
+  Description: Data bus bit 2
+
+Pad: C4       -> Pin: 19      
+  Signal: DATA3           Type: BIDIRECTIONAL
+  Description: Data bus bit 3
+
+Pad: C5       -> Pin: 20      
+  Signal: DATA4           Type: BIDIRECTIONAL
+  Description: Data bus bit 4
+
+Pad: C6       -> Pin: 21      
+  Signal: DATA5           Type: BIDIRECTIONAL
+  Description: Data bus bit 5
+
+Pad: C7       -> Pin: 22      
+  Signal: DATA6           Type: BIDIRECTIONAL
+  Description: Data bus bit 6
+
+Pad: C8       -> Pin: 23      
+  Signal: DATA7           Type: BIDIRECTIONAL
+  Description: Data bus bit 7
+
+Pad: D1       -> Pin: 24      
+  Signal: ADDR0           Type: INPUT
+  Description: Address bus bit 0
+
+Pad: D2       -> Pin: 25      
+  Signal: ADDR1           Type: INPUT
+  Description: Address bus bit 1
+
+Pad: D3       -> Pin: 26      
+  Signal: ADDR2           Type: INPUT
+  Description: Address bus bit 2
+
+Pad: D4       -> Pin: 27      
+  Signal: ADDR3           Type: INPUT
+  Description: Address bus bit 3
+
+Pad: E1       -> Pin: 32      
+  Signal: RESET_N         Type: INPUT
+  Description: Active low reset
+
+Pad: E2       -> Pin: 33      
+  Signal: ENABLE          Type: INPUT
+  Description: Chip enable
+
+Pad: E3       -> Pin: 34      
+  Signal: WR_N            Type: INPUT
+  Description: Active low write enable
+
+Pad: E4       -> Pin: 35      
+  Signal: RD_N            Type: INPUT
+  Description: Active low read enable
+
+Pad: F1       -> Pin: 40      
+  Signal: GPIO0           Type: BIDIRECTIONAL
+  Description: General purpose I/O 0
+
+Pad: F2       -> Pin: 41      
+  Signal: GPIO1           Type: BIDIRECTIONAL
+  Description: General purpose I/O 1
+
+Pad: F3       -> Pin: 42      
+  Signal: GPIO2           Type: BIDIRECTIONAL
+  Description: General purpose I/O 2
+
+Pad: F4       -> Pin: 43      
+  Signal: GPIO3           Type: BIDIRECTIONAL
+  Description: General purpose I/O 3
+
+Pad: F5       -> Pin: 44      
+  Signal: GPIO4           Type: BIDIRECTIONAL
+  Description: General purpose I/O 4
+
+Pad: F6       -> Pin: 45      
+  Signal: GPIO5           Type: BIDIRECTIONAL
+  Description: General purpose I/O 5
+
+Pad: F7       -> Pin: 46      
+  Signal: GPIO6           Type: BIDIRECTIONAL
+  Description: General purpose I/O 6
+
+Pad: F8       -> Pin: 47      
+  Signal: GPIO7           Type: BIDIRECTIONAL
+  Description: General purpose I/O 7
+
+Pad: G1       -> Pin: 48      
+  Signal: VREF            Type: INPUT
+  Description: Analog reference voltage
+
+Pad: G2       -> Pin: 49      
+  Signal: ADC_IN          Type: INPUT
+  Description: Analog to digital converter input
+
+Pad: G3       -> Pin: 50      
+  Signal: DAC_OUT         Type: OUTPUT
+  Description: Digital to analog converter output
+
+Pad: H1       -> Pin: 64      
+  Signal: VDD             Type: POWER
+  Description: 3.3V Power Supply
+
+Pad: H8       -> Pin: 57      
+  Signal: GND             Type: GROUND
+  Description: Ground
+
+Pin Type Statistics:
+--------------------
+BIDIRECTIONAL  :  16
+GROUND         :   2
+INPUT          :  11
+OUTPUT         :   2
+POWER          :   2

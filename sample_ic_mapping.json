@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "created": "2025-07-28T02:23:06.295883",
+    "version": "1.0",
+    "tool": "Pad to Pin Mapper"
+  },
+  "mappings": [
+    {
+      "pad_number": "A1",
+      "pin_number": "1",
+      "signal_name": "VDD",
+      "pin_type": "POWER",
+      "description": "3.3V Power Supply"
+    },
+    {
+      "pad_number": "A8",
+      "pin_number": "8",
+      "signal_name": "GND",
+      "pin_type": "GROUND",
+      "description": "Ground"
+    },
+    {
+      "pad_number": "H1",
+      "pin_number": "64",
+      "signal_name": "VDD",
+      "pin_type": "POWER",
+      "description": "3.3V Power Supply"
+    },
+    {
+      "pad_number": "H8",
+      "pin_number": "57",
+      "signal_name": "GND",
+      "pin_type": "GROUND",
+      "description": "Ground"
+    },
+    {
+      "pad_number": "B2",
+      "pin_number": "9",
+      "signal_name": "CLK",
+      "pin_type": "INPUT",
+      "description": "Main system clock"
+    },
+    {
+      "pad_number": "B3",
+      "pin_number": "10",
+      "signal_name": "CLK_OUT",
+      "pin_type": "OUTPUT",
+      "description": "Generated clock output"
+    },
+    {
+      "pad_number": "C1",
+      "pin_number": "16",
+      "signal_name": "DATA0",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 0"
+    },
+    {
+      "pad_number": "C2",
+      "pin_number": "17",
+      "signal_name": "DATA1",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 1"
+    },
+    {
+      "pad_number": "C3",
+      "pin_number": "18",
+      "signal_name": "DATA2",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 2"
+    },
+    {
+      "pad_number": "C4",
+      "pin_number": "19",
+      "signal_name": "DATA3",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 3"
+    },
+    {
+      "pad_number": "C5",
+      "pin_number": "20",
+      "signal_name": "DATA4",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 4"
+    },
+    {
+      "pad_number": "C6",
+      "pin_number": "21",
+      "signal_name": "DATA5",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 5"
+    },
+    {
+      "pad_number": "C7",
+      "pin_number": "22",
+      "signal_name": "DATA6",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 6"
+    },
+    {
+      "pad_number": "C8",
+      "pin_number": "23",
+      "signal_name": "DATA7",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "Data bus bit 7"
+    },
+    {
+      "pad_number": "D1",
+      "pin_number": "24",
+      "signal_name": "ADDR0",
+      "pin_type": "INPUT",
+      "description": "Address bus bit 0"
+    },
+    {
+      "pad_number": "D2",
+      "pin_number": "25",
+      "signal_name": "ADDR1",
+      "pin_type": "INPUT",
+      "description": "Address bus bit 1"
+    },
+    {
+      "pad_number": "D3",
+      "pin_number": "26",
+      "signal_name": "ADDR2",
+      "pin_type": "INPUT",
+      "description": "Address bus bit 2"
+    },
+    {
+      "pad_number": "D4",
+      "pin_number": "27",
+      "signal_name": "ADDR3",
+      "pin_type": "INPUT",
+      "description": "Address bus bit 3"
+    },
+    {
+      "pad_number": "E1",
+      "pin_number": "32",
+      "signal_name": "RESET_N",
+      "pin_type": "INPUT",
+      "description": "Active low reset"
+    },
+    {
+      "pad_number": "E2",
+      "pin_number": "33",
+      "signal_name": "ENABLE",
+      "pin_type": "INPUT",
+      "description": "Chip enable"
+    },
+    {
+      "pad_number": "E3",
+      "pin_number": "34",
+      "signal_name": "WR_N",
+      "pin_type": "INPUT",
+      "description": "Active low write enable"
+    },
+    {
+      "pad_number": "E4",
+      "pin_number": "35",
+      "signal_name": "RD_N",
+      "pin_type": "INPUT",
+      "description": "Active low read enable"
+    },
+    {
+      "pad_number": "F1",
+      "pin_number": "40",
+      "signal_name": "GPIO0",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 0"
+    },
+    {
+      "pad_number": "F2",
+      "pin_number": "41",
+      "signal_name": "GPIO1",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 1"
+    },
+    {
+      "pad_number": "F3",
+      "pin_number": "42",
+      "signal_name": "GPIO2",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 2"
+    },
+    {
+      "pad_number": "F4",
+      "pin_number": "43",
+      "signal_name": "GPIO3",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 3"
+    },
+    {
+      "pad_number": "F5",
+      "pin_number": "44",
+      "signal_name": "GPIO4",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 4"
+    },
+    {
+      "pad_number": "F6",
+      "pin_number": "45",
+      "signal_name": "GPIO5",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 5"
+    },
+    {
+      "pad_number": "F7",
+      "pin_number": "46",
+      "signal_name": "GPIO6",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 6"
+    },
+    {
+      "pad_number": "F8",
+      "pin_number": "47",
+      "signal_name": "GPIO7",
+      "pin_type": "BIDIRECTIONAL",
+      "description": "General purpose I/O 7"
+    },
+    {
+      "pad_number": "G1",
+      "pin_number": "48",
+      "signal_name": "VREF",
+      "pin_type": "INPUT",
+      "description": "Analog reference voltage"
+    },
+    {
+      "pad_number": "G2",
+      "pin_number": "49",
+      "signal_name": "ADC_IN",
+      "pin_type": "INPUT",
+      "description": "Analog to digital converter input"
+    },
+    {
+      "pad_number": "G3",
+      "pin_number": "50",
+      "signal_name": "DAC_OUT",
+      "pin_type": "OUTPUT",
+      "description": "Digital to analog converter output"
+    }
+  ]
+}
